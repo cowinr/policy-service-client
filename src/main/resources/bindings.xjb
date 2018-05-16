@@ -1,0 +1,74 @@
+<!--
+  ~ Copyright (c) 2018 - Hansard Global Plc
+  -->
+
+<jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+               version="1.0">
+
+    <!-- Exaxe Policy Web Service -->
+
+    <jaxb:bindings schemaLocation="PolicyWebService.wsdl"
+                   node="//xs:schema[@targetNamespace='http://tempuri.org/']">
+        <jaxb:schemaBindings>
+            <jaxb:package name="com.hansard.exaxe.org.tempuri"/>
+        </jaxb:schemaBindings>
+    </jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="PolicyWebService.wsdl"
+                   node="//xs:schema[@targetNamespace='http://schemas.microsoft.com/2003/10/Serialization/']">
+        <jaxb:schemaBindings>
+            <jaxb:package name="com.hansard.exaxe.com.microsoft.serialization"/>
+        </jaxb:schemaBindings>
+    </jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="PolicyWebService.wsdl"
+                   node="//xs:schema[@targetNamespace='http://schemas.datacontract.org/2004/07/Exaxe.Services']">
+        <jaxb:schemaBindings>
+            <jaxb:package name="com.hansard.exaxe.services"/>
+        </jaxb:schemaBindings>
+    </jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="PolicyWebService.wsdl"
+                   node="//xs:schema[@targetNamespace='http://schemas.datacontract.org/2004/07/Exaxe.AdminPlus.WcfServices.WFDataContract']">
+        <jaxb:schemaBindings>
+            <jaxb:package name="com.hansard.exaxe.adminplus.wcfservices.wfdatacontract"/>
+        </jaxb:schemaBindings>
+    </jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="PolicyWebService.wsdl"
+                   node="//xs:schema[@targetNamespace='http://schemas.datacontract.org/2004/07/Exaxe.AdminPlus.Domain']">
+        <jaxb:schemaBindings>
+            <jaxb:package name="com.hansard.exaxe.adminplus.domain"/>
+        </jaxb:schemaBindings>
+    </jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="PolicyWebService.wsdl"
+                   node="//xs:schema[@targetNamespace='http://schemas.datacontract.org/2004/07/Exaxe.AdminPlus.WcfServices']">
+        <jaxb:schemaBindings>
+            <jaxb:package name="com.hansard.exaxe.adminplus.wcfservices"/>
+        </jaxb:schemaBindings>
+    </jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="PolicyWebService.wsdl"
+                   node="//xs:schema[@targetNamespace='http://schemas.datacontract.org/2004/07/Exaxe.Client.Domain']">
+        <jaxb:schemaBindings>
+            <jaxb:package name="com.hansard.exaxe.client.domain"/>
+        </jaxb:schemaBindings>
+    </jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="PolicyWebService.wsdl"
+                   node="//xs:schema[@targetNamespace='http://schemas.microsoft.com/2003/10/Serialization/Arrays']">
+        <jaxb:schemaBindings>
+            <jaxb:package name="com.hansard.exaxe.com.microsoft.serialization.arrays"/>
+        </jaxb:schemaBindings>
+    </jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="PolicyWebService.wsdl"
+                   node="//xs:schema[@targetNamespace='http://schemas.datacontract.org/2004/07/Exaxe.Document.Domain.DocumentUpload']">
+        <jaxb:schemaBindings>
+            <jaxb:package name="com.hansard.exaxe.document.domain.documentupload"/>
+        </jaxb:schemaBindings>
+    </jaxb:bindings>
+
+</jaxb:bindings>
